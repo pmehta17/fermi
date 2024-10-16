@@ -3,6 +3,10 @@ import numpy as np
 from scipy.optimize import minimize
 class PolynomialRegressionMLE(PolynomialRegressionBase):
 
+    def __init__(self, num_points=15, sigma=0.1):
+        super().__init__(num_points, sigma)
+
+
     def negative_log_likelihood(self, params):
         """Calculate the negative log-likelihood for Gaussian errors."""
         a3, a2, a1, a0 = params

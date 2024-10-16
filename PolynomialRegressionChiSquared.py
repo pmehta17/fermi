@@ -1,10 +1,14 @@
-import PolynomialRegressionBase
+from PolynomialRegressionBase import PolynomialRegressionBase
 from scipy.optimize import minimize
 import numpy as np
 
 
 
 class PolynomialRegressionChiSquared(PolynomialRegressionBase):
+
+    def __init__(self, num_points=15, sigma=0.1):
+        super().__init__(num_points, sigma)
+
 
     def chi_square(self, params):
         """ Calculate Chi-Squared based on model parameters (a3, a2, a1, a0) """
@@ -19,3 +23,4 @@ class PolynomialRegressionChiSquared(PolynomialRegressionBase):
 
         print("Best-fit parameters (Chi-Squared Minimization):", result.x)
         return result.x
+
