@@ -1,4 +1,4 @@
-import PolynomialRegressionBase
+from polynomial_regression_base import PolynomialRegressionBase
 import numpy as np
 from scipy.optimize import minimize
 class PolynomialRegressionMLE(PolynomialRegressionBase):

@@ -1,7 +1,6 @@
-from PolynomialRegressionBase import PolynomialRegressionBase
+from polynomial_regression_base import PolynomialRegressionBase
 from scipy.optimize import minimize
 import numpy as np
-
 
 
 class PolynomialRegressionChiSquared(PolynomialRegressionBase):
