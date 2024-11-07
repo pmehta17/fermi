@@ -98,8 +98,8 @@ for i, sigma in enumerate(np.arange(SIGMA_START, SIGMA_END + SIGMA_STEP, SIGMA_S
     plt.show()
 ```
 
-    Best-fit parameters (Chi-Squared Minimization): [ 1.98889647 -0.81567395  0.98155142 -5.09152418]
-    Area under the curve (sigma = 0.1). Area: -10.726830987323297. Error: 1.1909174743388925e-13
+    Best-fit parameters (Chi-Squared Minimization): [ 1.89080876 -0.99251975  1.04590234 -5.00871361]
+    Area under the curve (sigma = 0.1). Area: -10.679107052041958. Error: 1.1856190531613863e-13
     
 
 
@@ -108,8 +108,8 @@ for i, sigma in enumerate(np.arange(SIGMA_START, SIGMA_END + SIGMA_STEP, SIGMA_S
     
 
 
-    Best-fit parameters (Chi-Squared Minimization): [ 2.36238677 -0.73331448  0.75096569 -5.24677735]
-    Area under the curve (sigma = 0.3). Area: -10.982431012773679. Error: 1.2192947776738716e-13
+    Best-fit parameters (Chi-Squared Minimization): [ 2.27293751 -0.98126821  0.66449159 -5.12007262]
+    Area under the curve (sigma = 0.3). Area: -10.89432404228209. Error: 1.2095129389468983e-13
     
 
 
@@ -118,8 +118,8 @@ for i, sigma in enumerate(np.arange(SIGMA_START, SIGMA_END + SIGMA_STEP, SIGMA_S
     
 
 
-    Best-fit parameters (Chi-Squared Minimization): [ 2.74585949 -0.23195599  0.28617803 -5.04878989]
-    Area under the curve (sigma = 0.5). Area: -10.25221711556838. Error: 1.1382247495160125e-13
+    Best-fit parameters (Chi-Squared Minimization): [ 1.65555383e+00 -9.68596814e-04  1.51327025e+00 -5.55418098e+00]
+    Area under the curve (sigma = 0.5). Area: -11.109007692269595. Error: 1.233347612069568e-13
     
 
 
@@ -128,8 +128,8 @@ for i, sigma in enumerate(np.arange(SIGMA_START, SIGMA_END + SIGMA_STEP, SIGMA_S
     
 
 
-    Best-fit parameters (Chi-Squared Minimization): [ 1.5334285  -0.60271192  1.99625737 -5.51849227]
-    Area under the curve (sigma = 0.7). Area: -11.43879248113694. Error: 1.269961078646735e-13
+    Best-fit parameters (Chi-Squared Minimization): [ 1.92437133 -1.59462678  0.6133935  -4.54677854]
+    Area under the curve (sigma = 0.7). Area: -10.156641601372282. Error: 1.1276137358709229e-13
     
 
 
@@ -138,8 +138,8 @@ for i, sigma in enumerate(np.arange(SIGMA_START, SIGMA_END + SIGMA_STEP, SIGMA_S
     
 
 
-    Best-fit parameters (Chi-Squared Minimization): [-0.27391834  0.11603202  2.47088126 -5.39883399]
-    Area under the curve (sigma = 0.9). Area: -10.72031330835325. Error: 1.1901938666129263e-13
+    Best-fit parameters (Chi-Squared Minimization): [ 2.06996911 -0.40561976  0.74328107 -5.14757555]
+    Area under the curve (sigma = 0.9). Area: -10.565564285288602. Error: 1.173013273768464e-13
     
 
 
@@ -149,6 +149,8 @@ for i, sigma in enumerate(np.arange(SIGMA_START, SIGMA_END + SIGMA_STEP, SIGMA_S
 
 
 ## MLE 
+
+Using the Maximum Likelihood Estimation method to find the best-fitting polynomial after generating Gaussian noise, with $\sigma$ varying between $0.1, 0.3, 0.5, 0.7,$ and $0.9$
 
 
 ```python
@@ -200,8 +202,8 @@ for i, sigma in enumerate(np.arange(SIGMA_START, SIGMA_END + SIGMA_STEP, SIGMA_S
     plt.show()
 ```
 
-    Best-fit parameters (MLE): [ 2.32609967 -1.07959001  0.77166888 -4.98297158]
-    Area under the curve (sigma = 0.1). Area: -10.68566984361565. Error: 1.186347669392479e-13
+    Best-fit parameters (MLE): [ 1.89455179 -1.01298064  1.09426619 -5.00842088]
+    Area under the curve (sigma = 0.1). Area: -10.692162179012493. Error: 1.1870684634165955e-13
     
 
 
@@ -210,8 +212,8 @@ for i, sigma in enumerate(np.arange(SIGMA_START, SIGMA_END + SIGMA_STEP, SIGMA_S
     
 
 
-    Best-fit parameters (MLE): [ 2.39967708 -0.94979459  0.65567715 -4.97659618]
-    Area under the curve (sigma = 0.3). Area: -10.586388755976913. Error: 1.1753252544518437e-13
+    Best-fit parameters (MLE): [ 1.90053939 -0.84209546  0.97635821 -5.03388664]
+    Area under the curve (sigma = 0.3). Area: -10.629170260772877. Error: 1.1800749556171029e-13
     
 
 
@@ -220,8 +222,8 @@ for i, sigma in enumerate(np.arange(SIGMA_START, SIGMA_END + SIGMA_STEP, SIGMA_S
     
 
 
-    Best-fit parameters (MLE): [ 1.44528111 -0.76976291  1.08822571 -4.9619942 ]
-    Area under the curve (sigma = 0.5). Area: -10.437163677008456. Error: 1.158757942599615e-13
+    Best-fit parameters (MLE): [ 1.02335908 -0.82977234  1.62452957 -5.18382711]
+    Area under the curve (sigma = 0.5). Area: -10.92083578358178. Error: 1.2124563335082804e-13
     
 
 
@@ -230,8 +232,8 @@ for i, sigma in enumerate(np.arange(SIGMA_START, SIGMA_END + SIGMA_STEP, SIGMA_S
     
 
 
-    Best-fit parameters (MLE): [ 2.35660759 -1.19206488  0.60146177 -5.02529786]
-    Area under the curve (sigma = 0.7). Area: -10.845305639137697. Error: 1.2040708029667722e-13
+    Best-fit parameters (MLE): [ 1.95222163 -0.89633319  1.42455273 -5.26993487]
+    Area under the curve (sigma = 0.7). Area: -11.137425193111737. Error: 1.236502588443293e-13
     
 
 
@@ -240,14 +242,19 @@ for i, sigma in enumerate(np.arange(SIGMA_START, SIGMA_END + SIGMA_STEP, SIGMA_S
     
 
 
-    Best-fit parameters (MLE): [ 3.14537788 -0.18960317  0.62231713 -5.04857919]
-    Area under the curve (sigma = 0.9). Area: -10.223560494977786. Error: 1.13504322551725e-13
+    Best-fit parameters (MLE): [ 3.74614492  0.03414458 -0.78688527 -5.60793629]
+    Area under the curve (sigma = 0.9). Area: -11.193109523883127. Error: 1.242684791056617e-13
     
 
 
     
 ![png](polynomial_prediction_final_files/polynomial_prediction_final_8_9.png)
     
+
+
+## TensorFlow
+
+Using TensorFlow to predict the equation of the polynomial when data is generated with Gaussion noise  $\sigma$ varying between $0.1, 0.3, 0.5, 0.7,$ and $0.9$
 
 
 
@@ -269,7 +276,11 @@ SIGMA_STEP = 0.2
 log_file = "training_log.txt"
 
 # Loop over the range of sigma values
-for i, sigma in enumerate(np.arange(SIGMA_START, SIGMA_END + SIGMA_STEP, SIGMA_STEP)):    
+for i, sigma in enumerate(np.arange(SIGMA_START, SIGMA_END + SIGMA_STEP, SIGMA_STEP)):   
+    print()
+    print(f"------------------SIMGA = {sigma:.1f}------------------")
+    
+
     try:
         # Instantiate the model with the current sigma
         model = CubicPolynomialModel(num_points=1000, sigma=sigma, learning_rate=0.01, batch_size=32)
@@ -288,12 +299,12 @@ for i, sigma in enumerate(np.arange(SIGMA_START, SIGMA_END + SIGMA_STEP, SIGMA_S
         # Get the model coefficients
         coeffs = [model.a.numpy(), model.b.numpy(), model.c.numpy(), model.d.numpy()]
         
+        ## PRINTING VALUES AND DISPLAYING GRAPHS
         
-        print(coeffs)
-            # Plot the observed data
+
+        # Plot the observed data
         plt.figure()  # Create a new figure
         
-        # Set title and labels
         plt.title(f"Polynomial Regression - TensorFlow (sigma = {sigma:.1f})")
         plt.xlabel('X Values')
         plt.ylabel('Y Observed')
@@ -302,6 +313,9 @@ for i, sigma in enumerate(np.arange(SIGMA_START, SIGMA_END + SIGMA_STEP, SIGMA_S
         plt.plot(model.x_values, np.polyval(coeffs, model.x_values), color='red')
         plt.show()
         
+        print(f"Learned Coefficients: {coeffs}")
+        print(f"Equation: {coeffs[0]:.3f}x^3 + {coeffs[1]:.3f}x^2 + {coeffs[2]:.3f}x + {coeffs[3]:.3f}")
+                
         # Integrate if coefficients are valid
         if coeffs is not None:
             integrator = PolynomialIntegrator(coeffs)
@@ -321,91 +335,100 @@ for i, sigma in enumerate(np.arange(SIGMA_START, SIGMA_END + SIGMA_STEP, SIGMA_S
         with open(log_file, 'a') as file:
             file.write(f"Error in Training Model for sigma = {sigma:.1f} at {model.get_timestamp()}: {e}\n")
 
-# # Optional: Plot the results if needed
-# plt.plot(np.arange(SIGMA_START, SIGMA_END + SIGMA_STEP, SIGMA_STEP), tf_area, marker='o')
-# plt.title("Area Under the Curve vs. Sigma")
-# plt.xlabel("Sigma")
-# plt.ylabel("Area Under the Curve")
-# plt.grid(True)
-# plt.show()
+
 
 ```
 
-    Epoch 0, Loss: 32.77931213378906
-    Epoch 100, Loss: 0.010255381464958191
-    Epoch 200, Loss: 0.006444905884563923
-    Epoch 300, Loss: 0.018489893525838852
+    
+    ------------------SIMGA = 0.1------------------
+    Epoch 0, Loss: 12.650151252746582
+    Epoch 100, Loss: 0.005704335868358612
+    Epoch 200, Loss: 0.011479897424578667
+    Epoch 300, Loss: 0.019349360838532448
     Learned parameters appended to learned_params.txt
-    [2.0091577, -0.99519676, 0.98325664, -4.9971304]
     
 
 
     
-![png](polynomial_prediction_final_files/polynomial_prediction_final_9_1.png)
+![png](polynomial_prediction_final_files/polynomial_prediction_final_10_1.png)
     
 
 
-    Area under the curve (sigma = 0.1). Area: -10.65772529443105. Error: 1.1832452012007277e-13
-    Epoch 0, Loss: 13.425207138061523
-    Epoch 100, Loss: 0.16867154836654663
-    Epoch 200, Loss: 0.12024562060832977
-    Epoch 300, Loss: 0.07199548184871674
+    Learned Coefficients: [2.014345, -1.0137683, 0.9768726, -5.0107584]
+    Equation: 2.014x^3 + -1.014x^2 + 0.977x + -5.011
+    Area under the curve (sigma = 0.1). Area: -10.697362343470257. Error: 1.18764579764788e-13
+    
+    ------------------SIMGA = 0.3------------------
+    Epoch 0, Loss: 14.190052032470703
+    Epoch 100, Loss: 0.07261444628238678
+    Epoch 200, Loss: 0.09440530091524124
+    Epoch 300, Loss: 0.03698992356657982
     Learned parameters appended to learned_params.txt
-    [2.0109336, -0.9897376, 1.0243917, -4.999947]
     
 
 
     
-![png](polynomial_prediction_final_files/polynomial_prediction_final_9_3.png)
+![png](polynomial_prediction_final_files/polynomial_prediction_final_10_3.png)
     
 
 
-    Area under the curve (sigma = 0.3). Area: -10.659719189008078. Error: 1.183466567967537e-13
-    Epoch 0, Loss: 27.352920532226562
-    Epoch 100, Loss: 0.15386340022087097
-    Epoch 200, Loss: 0.3530902862548828
-    Epoch 300, Loss: 0.6107373237609863
+    Learned Coefficients: [2.0070183, -0.94884604, 0.99030113, -5.0188055]
+    Equation: 2.007x^3 + -0.949x^2 + 0.990x + -5.019
+    Area under the curve (sigma = 0.3). Area: -10.670175035794577. Error: 1.1846274001519694e-13
+    
+    ------------------SIMGA = 0.5------------------
+    Epoch 0, Loss: 32.28520965576172
+    Epoch 100, Loss: 0.2902851700782776
+    Epoch 200, Loss: 0.17316100001335144
+    Epoch 300, Loss: 0.16642159223556519
     Learned parameters appended to learned_params.txt
-    [2.1245584, -1.0467155, 0.9863897, -5.0081654]
     
 
 
     
-![png](polynomial_prediction_final_files/polynomial_prediction_final_9_5.png)
+![png](polynomial_prediction_final_files/polynomial_prediction_final_10_5.png)
     
 
 
-    Area under the curve (sigma = 0.5). Area: -10.714141050974527. Error: 1.1895086083873492e-13
-    Epoch 0, Loss: 36.792701721191406
-    Epoch 100, Loss: 0.4397108554840088
-    Epoch 200, Loss: 0.5314996242523193
-    Epoch 300, Loss: 0.5022549629211426
+    Learned Coefficients: [1.9123619, -1.0418254, 1.0166198, -4.996971]
+    Equation: 1.912x^3 + -1.042x^2 + 1.017x + -4.997
+    Area under the curve (sigma = 0.5). Area: -10.6884925365448. Error: 1.186661051260618e-13
+    
+    ------------------SIMGA = 0.7------------------
+    Epoch 0, Loss: 41.469669342041016
+    Epoch 100, Loss: 0.2880265712738037
+    Epoch 200, Loss: 0.6317787766456604
+    Epoch 300, Loss: 0.5972576141357422
     Learned parameters appended to learned_params.txt
-    [1.8774765, -0.95641655, 1.0103928, -5.006988]
     
 
 
     
-![png](polynomial_prediction_final_files/polynomial_prediction_final_9_7.png)
+![png](polynomial_prediction_final_files/polynomial_prediction_final_10_7.png)
     
 
 
-    Area under the curve (sigma = 0.7). Area: -10.651587128639221. Error: 1.1825637279016223e-13
-    Epoch 0, Loss: 22.857290267944336
-    Epoch 100, Loss: 1.1524791717529297
-    Epoch 200, Loss: 1.1287649869918823
-    Epoch 300, Loss: 0.5682480335235596
+    Learned Coefficients: [2.2310126, -0.96093565, 0.814699, -5.021936]
+    Equation: 2.231x^3 + -0.961x^2 + 0.815x + -5.022
+    Area under the curve (sigma = 0.7). Area: -10.68449564774831. Error: 1.186217307463745e-13
+    
+    ------------------SIMGA = 0.9------------------
+    Epoch 0, Loss: 35.32910919189453
+    Epoch 100, Loss: 1.1487984657287598
+    Epoch 200, Loss: 0.7360866069793701
+    Epoch 300, Loss: 1.0533061027526855
     Learned parameters appended to learned_params.txt
-    [2.0283349, -1.0462694, 1.0634238, -4.965067]
     
 
 
     
-![png](polynomial_prediction_final_files/polynomial_prediction_final_9_9.png)
+![png](polynomial_prediction_final_files/polynomial_prediction_final_10_9.png)
     
 
 
-    Area under the curve (sigma = 0.9). Area: -10.627646764119467. Error: 1.1799058135108473e-13
+    Learned Coefficients: [2.1428266, -1.1488537, 0.9957634, -4.957319]
+    Equation: 2.143x^3 + -1.149x^2 + 0.996x + -4.957
+    Area under the curve (sigma = 0.9). Area: -10.680540005366007. Error: 1.1857781429387433e-13
     
 
 ## Comparing integration accuracy for Chi Squared, MLE, and TensorFlow
@@ -441,14 +464,14 @@ print(tabulate(differential_data, headers = formatted_head, showindex=row_labels
     Raw Data
                       0.1       0.3       0.5       0.7       0.9
     -----------  --------  --------  --------  --------  --------
-    Chi-Squared  -10.7268  -10.9824  -10.2522  -11.4388  -10.7203
-    MLE          -10.6857  -10.5864  -10.4372  -10.8453  -10.2236
-    TensorFlow   -10.6577  -10.6597  -10.7141  -10.6516  -10.6276
+    Chi-Squared  -10.6791  -10.8943  -11.109   -10.1566  -10.5656
+    MLE          -10.6922  -10.6292  -10.9208  -11.1374  -11.1931
+    TensorFlow   -10.6974  -10.6702  -10.6885  -10.6845  -10.6805
     
     Area differential
-                         0.1          0.3         0.5         0.7         0.9
-    -----------  -----------  -----------  ----------  ----------  ----------
-    Chi-Squared  -0.0601643   -0.315764     0.41445    -0.772126   -0.0536466
-    MLE          -0.0190032    0.0802779    0.229503   -0.178639    0.443106
-    TensorFlow    0.00894137   0.00694748  -0.0474744   0.0150795   0.0390199
+                        0.1          0.3         0.5        0.7         0.9
+    -----------  ----------  -----------  ----------  ---------  ----------
+    Chi-Squared  -0.0124404  -0.227657    -0.442341    0.510025   0.101102
+    MLE          -0.0254955   0.0374964   -0.254169   -0.470759  -0.526443
+    TensorFlow   -0.0306957  -0.00350837  -0.0218259  -0.017829  -0.0138733
     
